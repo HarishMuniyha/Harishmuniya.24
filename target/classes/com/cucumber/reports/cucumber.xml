@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.87774">
+<testcase classname="Facebook Application smoke test automation scripts" name="Verify the login functionality of the application with invalid credentials" time="16.87774">
+<failure message="java.lang.Exception&#13;&#10;&#9;at com.cucumber.baseclass.BaseClass.elementIsDisplayed(BaseClass.java:70)&#13;&#10;&#9;at com.cucumber.stepdefinition.Stepdefinition.user_should_see_the_facebook_logo_displayed_in_the_header(Stepdefinition.java:26)&#13;&#10;&#9;at ✽.Then User should see the facebook logo displayed in the header(FaceBook.feature:7)&#13;&#10;"><![CDATA[Given User should be in Facebook Application................................passed
+Then User should see the facebook logo displayed in the header..............failed
+When User enter the Email address in the emailFeild in Login Page...........skipped
+And User enter the password in the passwordFeild in Login Page..............skipped
+And User click on the Login button in the Login Page........................skipped
+And User wait for 3 seconds for page load...................................skipped
+Then User should see the Login into Facebook title in the Forgot Password Page.skipped
+
+StackTrace:
+java.lang.Exception
+	at com.cucumber.baseclass.BaseClass.elementIsDisplayed(BaseClass.java:70)
+	at com.cucumber.stepdefinition.Stepdefinition.user_should_see_the_facebook_logo_displayed_in_the_header(Stepdefinition.java:26)
+	at ✽.Then User should see the facebook logo displayed in the header(FaceBook.feature:7)
+]]></failure>
+</testcase>
+</testsuite>

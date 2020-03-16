@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="24.763679">
+<testcase classname="Facebook Application smoke test automation scripts" name="Verify the login functionality of the application with invalid credentials" time="24.763679">
+<failure message="java.lang.Exception&#13;&#10;&#9;at com.cucumber.baseclass.BaseClass.clickOnWebelement(BaseClass.java:132)&#13;&#10;&#9;at com.cucumber.stepdefinition.Stepdefinition.user_click_on_the_Login_button_in_the_Login_Page(Stepdefinition.java:54)&#13;&#10;&#9;at ✽.And User click on the Login button in the Login Page(FaceBook.feature:10)&#13;&#10;"><![CDATA[Given User should be in Facebook Application................................passed
+Then User should see the facebook logo displayed in the header..............passed
+When User enter the Email address in the emailFeild in Login Page...........passed
+And User enter the password in the passwordFeild in Login Page..............passed
+And User click on the Login button in the Login Page........................failed
+And User wait for 3 seconds for page load...................................skipped
+Then User should see the Login into Facebook title in the Forgot Password Page.skipped
+
+StackTrace:
+java.lang.Exception
+	at com.cucumber.baseclass.BaseClass.clickOnWebelement(BaseClass.java:132)
+	at com.cucumber.stepdefinition.Stepdefinition.user_click_on_the_Login_button_in_the_Login_Page(Stepdefinition.java:54)
+	at ✽.And User click on the Login button in the Login Page(FaceBook.feature:10)
+]]></failure>
+</testcase>
+</testsuite>
